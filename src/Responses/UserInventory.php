@@ -144,7 +144,8 @@ class UserInventory implements ResponseInterface
             'marketable'      => !!$description['marketable'],
             'tradable'        => !!$description['tradable'],
             'commodity'       => !!$description['commodity'],
-            'inspectLink'     => $inspectLink
+            'inspectLink'     => $inspectLink,
+            'tags' => $description['tags'] ?? null,
         ];
 
         $addInfo = [];
