@@ -10,10 +10,10 @@
         }
     ],
     "require": {
-        "imangazaliev/didom": "^1.18",
-        "php-curl-class/php-curl-class": ">=8.10.0",
-        "nesbot/carbon": "^2.61.0",
-        "ramsey/uuid": "^4.2"
+        "imangazaliev/didom": "^2.0.1",
+        "php-curl-class/php-curl-class": ">=12.0.0",
+        "nesbot/carbon": "^3.9.1",
+        "ramsey/uuid": "^4.7.6"
     },
     "autoload": {
         "psr-4": {
